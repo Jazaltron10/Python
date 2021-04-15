@@ -17,3 +17,5 @@ app_user_two.get_user_info()
 # creating new post
 new_post = Post("I just have No Time To Die", app_user_two.name )
 new_post.get_post_info()
+
+

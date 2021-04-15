@@ -5,10 +5,10 @@
 
 #### While Loop
 The whole concept of loops in programming is basically that you get to do the
-same thing multiple times, in this case it is executing logic multiple times.
-And how many times that logic gets executed is basically defined in the condition 
-of that loop, and the condition could be it should run ten times or it should run
-until some specific event happens in the application
+same thing multiple times, in this case it is executing logic multiple times for 
+different parameters. And how many times that logic gets executed is basically 
+defined in the condition of that loop, and the condition could be it should run 
+ten times or it should run until some specific event happens in the application
 
 Conditions
 + They basically evaluate to true or false 
@@ -58,7 +58,7 @@ While loop - This executes a statement as long as a condition is true
 + User is prompted for its input
 + Function is called and input is validated and executed 
 + Loop continues
-+ program stops only when the User types exit and it is evaluated by the loop conditional
++ program stops only when the User types **exit** and it is evaluated by the loop conditional
 
 
 
@@ -98,11 +98,13 @@ performing operations on them.
  +  However the list is created as a string this because input is always a string 
     and to convert it we'll have to use list.split()
  +  split() is a function that would take the string being passed on by the user
-    as a parameter and would give us a list data type(it basically converts string to list data type)
+    as a parameter and would give us a list data type(it basically converts string 
+    to list data type)
  +  so the split function will basically return a list of those input values  
- +  to see what the list looks like and to get the data type of the list you use 
+ +  to see what the list looks like and to get the data type of the list you use the 
+    type function nested in a print function and then a print function on it's own.
  +  split function by default splits that provided lists on spaces and then provides 
-    alist out of them. However it can be overriden to split on comma, as shown below: 
+    a list out of them. However it can be overriden to split on comma, as shown below: 
             
                 
                 print(type(User_input.split(", ")))

@@ -11,13 +11,14 @@
 
 ###### Third Party Packages
 + Python comes only with a set of built-in modules
-+ Many more modules out there, which are NOT part of the python installation
++ There are many more modules out there, which are NOT part of the python installation
 + You need to install these third-party packages 
 + python modules live in a python repository called **pypi** 
 
 ###### Package vs Module 
 + Module is basically a single python file 
 + Package is a collection of Python modules 
++ Library is a collection of python packages 
 + a package always contains an __init__.py file 
 + this is to differentiate it from all the normal 
   folders that contain multiple python files
@@ -27,7 +28,7 @@
 ####### Library 
 This is just basically a collection of python packages   
 ###### The Python Package Index(PyPI)
-+ PuPI is a repo(storage) for third-party Python packages
++ PyPI is a repository(storage) for third-party Python packages
 + People can Publish their packages to this repo
 + So it becomes available for everyone to use
 + A large community means, many people are creating useful modules and make them
@@ -36,7 +37,7 @@ This is just basically a collection of python packages
   
 ###### pip 
 + This is a package manager tool just like npm for js or maven/gradle for java
-+ It is used to install packages from the Python Package Index, but also other indexes 
++ It is used to install packages from the Python Package Index{pypi}, but also other indexes 
 + pip is included in the installation of python
 + you can install and uninstall packages like django using pip
             
@@ -55,7 +56,7 @@ objectives
 
 ###### List each company with respective product count
 + For this exercise 
-+ We need to go through each and ever row in each sheet 
++ We need to go through each and every row in each sheet 
 + We also need to execute the same logic for specific columns on each row
 + Thus we'll have to loop through the rows 
 + This loop will execute as many times as the number of products in the sheet 
@@ -74,7 +75,7 @@ objectives
 + this means that for a range of 75 with start point of 2 
 + The range will execute from 2 to 74
 + to make it inclusive all you have to do is to add add 1 
-+ product_list.cell()- takes in two values row_no. and col_no.
++ product_list.cell() = takes in two values row_no. and col_no.
  
 
 ###### Sample Code 
@@ -109,7 +110,7 @@ objectives
 
 
     # Name of company will be key and the product count will be the value
-    products_per_supplier = {} # Exercise 1
+    products_per_supplier = {} # Exercise 1 = creating an empty dictionary 
     total_value_per_supplier = {}
 
 

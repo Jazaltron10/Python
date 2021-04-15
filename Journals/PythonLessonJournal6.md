@@ -27,12 +27,14 @@ data and behavior are modelled after the class.
 
 ####
 + class is like an object constructor 
-+ all classes have a __init__() function
++ all classes have an __init__() function
 + __init__() is executed automatically, whenever we create the objects from his class 
-+ def __init__(self): this is what is called a constructor 
++ def __init__(self): this is what is called a constructor <br>
+  it is python's equivalent of the constructor function. 
 + it'll help us to construct objects from the class(blueprint)
-+ "self" Parameter is a reference to the current instance of the class 
-+ Functions that belong to a class are actually called Methods 
++ "self" Parameter is a reference to the current instance of the class<br> 
+  Again this is python's version of the **this** keyword in languages like java<br>
++ Functions that belong to a class are actually called **Methods** 
 
 
 
@@ -40,9 +42,9 @@ data and behavior are modelled after the class.
     
     
     class User:
-        def __init__(self, user_email, name, password, current_job_title):
+        def __init__(self, user_email, full_name, password, current_job_title):
             self.email = user_email
-            self.name = name
+            self.name = full_name
             self.password = password
             self.current_job_title = current_job_title
 
@@ -70,7 +72,7 @@ data and behavior are modelled after the class.
     
 #### Object Oriented Programming 
 + In python almost everything is an object
-+ str(), int(), ... are the constructor functions
++ str(), int()... are the constructor functions
 
 ###### API REQUEST
     import requests

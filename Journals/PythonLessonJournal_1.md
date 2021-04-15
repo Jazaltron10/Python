@@ -14,7 +14,7 @@
 
 Use variables for values that end up repeating themselves in your program
 
-Also use descriptive a variable name for your assigned value 
+Also use a descriptive variable name for your assigned value 
     
     print(f"35 days are {35*calculation_to_secs} {name_of_unit}")
     print(f"132 days are {132*calculation_to_secs}{name_of_unit}")
@@ -54,9 +54,9 @@ Also use descriptive a variable name for your assigned value
     days_to_units(90, "Python is the way \n")
  
 ### Scope  
-#####  Variable scopes simply means where is the variable the function uses defined
+#####  Variable scopes simply means where is the variable the function uses, defined
 + A Variable has a **Global Scope** for a function if it is described/created outside 
-    the function. They are accessible to every functions within the program
+    the function. They are accessible to every function within the program
 
 + A Variable has a **Local Scope** if it is created within/(inside) a function 
 

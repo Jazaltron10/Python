@@ -3,7 +3,7 @@
 
 
 #### Built In Functions
-These are functions that python makes available to us to use
+These are functions that python makes available to us, for our usage
 
 ###### Example:
 +   print() => Prints to the standard output device
@@ -21,11 +21,12 @@ input do something with it and then give us a result or output.<br>
 
 ###### The Second Type Of Built-in Functions 
 Unlike the first type of built in functions these second types do not take in any
-parameter and are called on directly on a specific data type value.<br>
+parameter(it's optional) and are called on directly on a specific data type value.<br>
 The major difference between this type of built-in function and the first is that
 +   Each data type has its own built-in functions(i.e referring to the second type)
 +   They are very useful and makes sense only for that specific data type 
-+   The parameters for these functions are actually the value for which we are calling the function for 
++   The parameters for these functions are actually the value for which we 
+    are calling the function for(again referring to the second type) 
 +   In some cases special parameters can also be passed into the function itself
 
 ###### Example:
@@ -70,7 +71,7 @@ The major difference between this type of built-in function and the first is tha
     
     User_input = ""
     while User_input != "exit":
-        User_input = input("Hey user, enter a number of days and conversion unit!\n")
+        User_input = input("Hey user, enter a number of days and conversion unit! like this days:unit\n")
         days_and_unit = User_input.split(":")
         print(days_and_unit )
         days_and_unit_dictionary = {"days":days_and_unit[0], "unit":days_and_unit[1]}
@@ -98,8 +99,8 @@ The major difference between this type of built-in function and the first is tha
 This helps the programmer connect to other python files(.py)<br>
 so in other words a module is a python file that contains functions and variables 
 that you can use in another python file.  
-+   Logically organize your python code
-+   Module should contain related code 
++   It Logically organizes your python code
++   Modules should contain related code 
 +   The things that are defined in the module that you can basically 
     use in another file are called **definitions**
 +   To rename the module you'll have to use this syntax:<br>
@@ -116,6 +117,8 @@ that you can use in another python file.
     ExternalPythonFile.function_imported()
     
 ###### Syntax: for importing only one item to be used(could be a function or variable) 
+    
+    
     from ExternalPythonFile import function_to_be_used, variable_to_be_used
     
     """ 
