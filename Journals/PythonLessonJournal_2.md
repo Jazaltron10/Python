@@ -106,7 +106,7 @@
     User_input = input("Hey user, enter a number of days and i will convert it to hours!\n")<br>
 
 
-### Nested i f...Else
+### Nested if...Else
    with this all validation logic can be put in one place
    
 ##### Example:
